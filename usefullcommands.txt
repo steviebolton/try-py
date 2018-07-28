@@ -1,0 +1,16 @@
+mysql -u $C9_USER -p < name_of_f 
+
+show databases;
+
+show tables;
+
+desc name of table;
+
+
+------------------
+
+$ mysql-ctl start
+
+mysql -u $C9_USER
+
+Use sql

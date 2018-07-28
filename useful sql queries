@@ -1,0 +1,29 @@
+select Name from Artist;
+
+select FirstName, LastName from Customer;
+
+select * from Track;
+
+Where Composer = 'U2';
+
+Where AlbumId = 232;
+
+JOIN Album on Track.AlbumId = Album.AlbumId;
+
+JOIN Album on Track.AlbumId = Album.AlbumId;
+
+JOIN Album on Track.AlbumId = Album.AlbumId;
+
+richard_ci [2:33 PM]
+sudo pip3 install --upgrade setuptools
+
+
+
+
+Select Track.Name as Track, Title as Album, ArtistId, Artist.Name as Artist from Track
+JOIN Album on Track.AlbumId = Album.AlbumId
+JOIN Artist on Album.ArtistId = Artist.ArtistId;
+
+
+
+
